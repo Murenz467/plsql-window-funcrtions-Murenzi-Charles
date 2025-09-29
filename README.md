@@ -58,6 +58,9 @@ CREATE TABLE farmers (
     region VARCHAR2(50)
 );
 ```
+
+
+
 ```sql
 ---------------------------------------------------
 -- STEP : INSERT SAMPLE DATA
@@ -129,6 +132,8 @@ JOIN farmers f ON y.farmer_id = f.farmer_id
 JOIN crops c ON y.crop_id = c.crop_id
 GROUP BY f.region, c.crop_name, TO_CHAR(y.yield_date, 'YYYY-MM');
 Interpretation: Identifies the top 5 crops in each region by yield, helping AgriGrow prioritize high-performing crops per season.
+```
+```sql
 
 2. Running Monthly Yield Totals (SUM OVER)
 sql
@@ -139,6 +144,7 @@ FROM yields
 GROUP BY TO_CHAR(yield_date, 'YYYY-MM')
 ORDER BY month;
 Interpretation: Calculates monthly yields and cumulative totals to track production growth trends.
+```
 ``` sql
 
 3. Month-over-Month Growth Rate (LAG)
@@ -156,6 +162,8 @@ FROM (
 ) t
 ORDER BY month;
 Interpretation: Shows month-over-month yield changes, allowing detection of sudden production drops or surges.
+```
+```sql
 
 4. Farmer Quartile Segmentation (NTILE)
 sql
@@ -169,6 +177,8 @@ JOIN yields y ON f.farmer_id = y.farmer_id
 GROUP BY f.farmer_id, f.name, f.region
 ORDER BY total_yield DESC;
 Interpretation: Segments farmers into quartiles to identify high-performing vs. low-performing farmers for targeted support.
+```
+```sql
 
 5. 3-Month Moving Average (AVG OVER)
 sql
@@ -183,6 +193,7 @@ FROM (
 ) t
 ORDER BY month;
 Interpretation: Provides smoothed yield trends, reducing seasonal noise and improving forecasting accuracy.
+```
 
 📊 Results Analysis
 Descriptive Analysis (What happened?)
