@@ -1,1 +1,1 @@
-# plsql-window-funcrtions-Murenzi-Charles
+# plsql-window-functions-Murenzi-Charles
