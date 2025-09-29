@@ -225,30 +225,7 @@ Implement predictive early warning systems using moving averages
 
 Strengthen post-harvest storage in high-producing regions
 
-📁 Repository Structure
-text
-plsql-window-functions-lastname-firstname/
-│
-├── README.md
-├── sql/
-│   ├── 01_schema_setup.sql
-│   ├── 02_sample_data.sql
-│   ├── 03_query_top_crops.sql
-│   ├── 04_query_running_totals.sql
-│   ├── 05_query_growth_rate.sql
-│   ├── 06_query_farmer_quartiles.sql
-│   └── 07_query_moving_average.sql
-│
-├── screenshots/
-│   ├── query1_top_crops.png
-│   ├── query2_running_totals.png
-│   ├── query3_growth_rate.png
-│   ├── query4_quartiles.png
-│   └── query5_moving_average.png
-│
-└── docs/
-    ├── er_diagram.png
-    └── project_report.pdf
+
 📚 References
 Oracle Corporation. (2024). Oracle Database SQL Language Reference: Window Functions
 
