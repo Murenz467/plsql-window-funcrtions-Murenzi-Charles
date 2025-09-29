@@ -58,6 +58,7 @@ CREATE TABLE farmers (
     region VARCHAR2(50)
 );
 ```
+<img width="1182" height="537" alt="pl-crops  (1)" src="https://github.com/user-attachments/assets/4b2bc7d9-d14e-4b95-b3cd-056ee4d70346" />
 
 
 
