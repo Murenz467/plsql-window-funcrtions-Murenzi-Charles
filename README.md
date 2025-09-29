@@ -269,12 +269,13 @@ TechTarget. (2024). SQL Window Functions: A Comprehensive Guide
 
 Ministry of Agriculture and Animal Resources (MINAGRI), Rwanda. (2024). National Agricultural Policy
 ```
-
+```
+sql
 Integrity Statement
 All sources cited in this project have been properly referenced. The database design, query implementations, and analysis represent original work completed for the AgriGrow Rwanda PL/SQL Window Functions Project. Sample data and business scenarios are fictional but based on realistic agricultural patterns in Rwanda.
 
 Student Declaration: I certify that this project is my own work and that all sources have been properly acknowledged. The SQL implementations and analytical insights are the result of my independent learning and application of PL/SQL window functions.
-
+```
 Project Completion Date: [29/09/2025]
 Author: [Murenzi Charles]
 ID:27386
